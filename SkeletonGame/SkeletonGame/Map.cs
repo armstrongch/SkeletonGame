@@ -5,29 +5,24 @@ namespace SkeletonGame
 {
     internal class Map
     {
-        const int mapPercentOfScreen = 80;
-        int mapSize;
         int xOrigin;
         int yOrigin;
 
         private List<Hex> hexes = new List<Hex>();
-        MapForm mapForm;
 
-        public Map(int mapSize)
+        public Map(int mapSize, int mapWidth, int mapHeight)
         {
-            mapForm = new MapForm();
-            Application.Run(mapForm);
-            if (mapForm.Height > mapForm.Width)
+            if (mapHeight > mapWidth)
             {
-                mapSize = mapForm.Width;
+                mapSize = mapWidth;
                 xOrigin = 0;
-                yOrigin = (mapForm.Height - mapForm.Width) / 2;
+                yOrigin = (mapHeight - mapWidth) / 2;
             }
             else
             {
-                mapSize = mapForm.Height;
+                mapSize = mapHeight;
                 yOrigin = 0;
-                xOrigin = (mapForm.Width - mapForm.Height) / 2;
+                xOrigin = (mapWidth - mapHeight) / 2;
             }
 
             for (int x = 0; x < mapSize*4-1; x++)

@@ -5,4 +5,4 @@ C:\Users\Chris\Documents\GitHub\SkeletonGame\SkeletonGame\SkeletonGame\obj\Debug
 C:\Users\Chris\Documents\GitHub\SkeletonGame\SkeletonGame\SkeletonGame\obj\Debug\SkeletonGame.csproj.GenerateResource.Cache
 C:\Users\Chris\Documents\GitHub\SkeletonGame\SkeletonGame\SkeletonGame\obj\Debug\SkeletonGame.exe
 C:\Users\Chris\Documents\GitHub\SkeletonGame\SkeletonGame\SkeletonGame\obj\Debug\SkeletonGame.pdb
-C:\Users\Chris\Documents\GitHub\SkeletonGame\SkeletonGame\SkeletonGame\obj\Debug\SkeletonGame.MapForm.resources
+C:\Users\Chris\Documents\GitHub\SkeletonGame\SkeletonGame\SkeletonGame\obj\Debug\SkeletonGame.GameForm.resources

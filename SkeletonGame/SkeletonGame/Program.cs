@@ -12,8 +12,9 @@ namespace SkeletonGame
         {
             Config config = new Config();
             config.mapSize = 6;
-            Game game = new Game(config);
-            game.Start();
+
+            GameForm mapForm = new GameForm(config);
+            Application.Run(mapForm);
         }
     }
 }

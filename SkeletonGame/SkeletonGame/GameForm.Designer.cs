@@ -1,6 +1,6 @@
 ﻿namespace SkeletonGame
 {
-    partial class MapForm
+    partial class GameForm
     {
         /// <summary>
         /// Required designer variable.
