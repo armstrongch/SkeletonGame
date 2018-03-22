@@ -7,12 +7,10 @@ namespace SkeletonGame
     {
         private Config config;
         private Map map;
-        Graphics g;
 
-        public Game(Config config, Graphics g)
+        public Game(Config config)
         {
             this.config = config;
-            this.g = g;
         }
 
         internal void Start()
@@ -33,7 +31,7 @@ namespace SkeletonGame
                 new Point(x+width, y+height/4),
                 new Point(x+width/2, y-height/4)
             };
-            g.FillPolygon(b, points);
+            //g.FillPolygon(b, points);
         }
     }
 }
