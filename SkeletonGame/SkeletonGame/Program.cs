@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,14 +14,8 @@ namespace SkeletonGame
             Config config = new Config();
             config.mapSize = 6;
 
-            GameForm gameForm = new GameForm();
+            GameForm gameForm = new GameForm(config);
             Application.Run(gameForm);
-
-            config.mapWidth = gameForm.Width;
-            config.mapHeight = gameForm.Height;
-
-            Game game = new Game(config);
-            game.Start();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace SkeletonGame
+﻿using System;
+
+namespace SkeletonGame
 {
     partial class GameForm
     {
@@ -30,17 +32,17 @@
         {
             this.SuspendLayout();
             // 
-            // MapForm
+            // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(628, 527);
-            this.Name = "MapForm";
-            this.Text = "MapForm";
+            this.Name = "GameForm";
+            this.Text = "Skeleton Game";
+            this.Load += new System.EventHandler(this.StartGame);
             this.ResumeLayout(false);
 
         }
-
         #endregion
     }
 }

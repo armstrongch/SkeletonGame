@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="Config.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="Map.cs" />
     <Compile Include="GameForm.cs">
       <SubType>Form</SubType>
     </Compile>
